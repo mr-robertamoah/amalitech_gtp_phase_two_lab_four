@@ -57,6 +57,16 @@ Shows the configuration of necessary IAM permissions for the Lambda function to 
 
 Displays the setup of a CloudWatch Events rule that triggers the Lambda function on a daily schedule, automating the backup process.
 
+### Step 10: Creation of Source Snapshots
+![Source Snapshots](screenshots/10.%20source%20region%20snapshots%20are%20being%20created.png)
+
+Shows the Snaptshots of the database in the source region being created as a result of the scheduled lambda function execution.
+
+### Step 11: Creation of Destination Snapshots
+![Destinations Snapshots](screenshots/11.%20destination%20region%20snapshots%20are%20being%20created.png)
+
+Shows the Snapshots that are being copied to the destination region, based on the scheduled Lambda function execution.
+
 ## Architecture Benefits
 
 - **Disaster Recovery**: Cross-region snapshots ensure data availability during regional outages
