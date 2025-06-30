@@ -84,3 +84,25 @@ Shows the Snapshots that are being copied to the destination region, based on th
 5. **Cross-Region Snapshots**: Ensures disaster recovery capability
 
 This implementation provides a robust, automated solution for RDS database backup and disaster recovery across AWS regions.
+
+## Learning Outcomes
+
+This project demonstrates key AWS concepts and best practices:
+
+### AWS Services Integration
+- **RDS Management**: Creating, managing, and restoring database instances from snapshots.
+- **Cross-Region Operations**: Understanding AWS global infrastructure and how data can be replicated across regions.
+- **Lambda Functions**: Understanind how to leverage event-driven and serverless architecture to automate data backup and recovery.
+- **CloudWatch Events**: Scheduling and triggering events to drive automation.
+- **IAM Security**: Implementing the principle of least-privilege to control Lambda functions's access to other AWS services. 
+
+### Technical Skills
+- **Disaster Recovery Planning**: Implementing multi-region backup strategies which will ensure lower risk of data loss.
+- **Infrastructure Automation**: Reducing manual processes through the use of code which will ensure consistensy and improve efficiency.
+- **Cost Optimization**: Learnt about managing storage costs with retention policies on RDS.
+
+### Best Practices
+- **Security**: Proper IAM role configuration and permissions management
+- **Reliability**: Automated scheduling ensures consistent backup execution
+- **Scalability**: Solution can be extended to multiple databases and regions
+- **Compliance**: Configurable retention meets regulatory requirements
